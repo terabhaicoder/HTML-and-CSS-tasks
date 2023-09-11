@@ -1,0 +1,62 @@
+
+.horizontal-nav {
+  background-color: lightgray;
+}
+.box {
+  width: 500px;
+  border: 2px solid ;
+  color: black;
+}
+
+.horizontal-nav ul {
+  list-style-type: none;
+  margin: 30px;
+  padding: 10px;
+}
+
+.horizontal-nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.horizontal-nav a {
+  text-decoration: none;
+  color:blue;
+  font-weight: bold;
+  font-size: 16px;
+}
+.horizontal-nav a:hover {
+  color: white;
+}
+
+
+/* styles.css */
+.vertical-nav {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.vertical-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-nav li {
+  text-align: center;
+}
+
+.vertical-nav a {
+  display: block;
+  text-decoration: none;
+  color:blue;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.vertical-nav a:hover {
+  background-color: orange;
+  color: white;
+}
+

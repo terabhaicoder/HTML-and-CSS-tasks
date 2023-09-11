@@ -1,0 +1,63 @@
+	.banner {
+		text-align: center;
+	}
+		
+	h1 {
+		color: black;
+	}
+	
+	.sidehoverbar a {
+		position: absolute;
+		font-size: 22px;
+		text-decoration: none;
+		Color: white;
+		padding: 10px;
+    border-radius: 10px;
+		left: -190px;
+		transition: 0.5s;
+		opacity: 0.5;
+	}
+		
+	
+	.sidehoverbar a:hover {
+		left: 0px;
+		opacity: 1;
+		background-color: black;
+	}
+		
+	
+	.sidehoverbar i {
+		float: right;
+	}
+		
+	.article {
+		top: 50px;
+		width: 210px;
+		height: 30px;
+    background-color: darkgreen;
+	}
+
+		.Interview {
+		top: 110px;
+		width: 210px;
+		height: 30px;
+    background-color: blue;
+	}
+	
+	.Scripter {
+		top: 170px;
+		width: 210px;
+		height: 30px;
+    background-color: darkred;
+	}
+		
+	.Suggested {
+		top: 230px;
+		width: 210px;
+		height: 30px;
+    background-color: black;
+	}	
+	.hoverable-topic {
+		margin-left: 55px;
+	}
+
